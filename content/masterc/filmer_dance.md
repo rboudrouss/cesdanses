@@ -1,7 +1,6 @@
 ---
 title: "Filmer et photographier la danse"
-date: 2021-06-01T22:47:58+02:00
-draft: true
+draft: false
 ---
 
 # Filmer et photographier la danse
