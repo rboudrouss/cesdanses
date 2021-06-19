@@ -18,7 +18,7 @@
                 </p.RelPermalink.>
         </div>
         <div class="row">
-            {{ $paginator := .Paginate (where .Site.RegularPages "Type" (lower .Title) ) }}
+            {{ $paginator := .Paginate (where .Site.RegularPages "Type" (replace (lower .Title) " " "-") ) }}
             {{ range $paginator.Pages }}
             <h4>
                 <a href="{{ .Permalink }}" class="h5 d-block my-3">{{ .Title | markdownify }}</a>
