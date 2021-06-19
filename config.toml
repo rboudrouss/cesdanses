@@ -14,17 +14,22 @@ herolinktext = "don't click yet"
 
 [menu]
     [[menu.nav]]
-        name    = "about"
-        pre = "<i class='fas fa-home'></i>"
-        url     = "about"
+        name    = "ateliers"
+        pre = "<i class='fas fa-place-of-worship'></i>"
+        url     = "ateliers"
         weight  = -1
     [[menu.nav]]
-        name    = "blog"
+        name    = "Conférences"
         pre = "<i class='fas fa-list'></i>"
-        url     = "post"
+        url     = "conferences"
         weight  = -2
     [[menu.nav]]
-        name    = "conference"
+        name    = "Master Classes"
         pre = "<i class='fas fa-envelope'></i>"
-        url     = "conference"
+        url     = "master-classes"
         weight  = -3
+    [[menu.nav]]
+        name    = "L'équipe"
+        pre = "<i class='fas fa-users'></i>"
+        url     = "about"
+        weight  = -4
