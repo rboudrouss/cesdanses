@@ -1,0 +1,7 @@
+<footer>
+    <span class="copyright">
+        {{ with .Site.Copyright | default "&copy;" }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}
+        <a href="https://github.com/rboudrouss" title="hugo-sugoi" alt="hugo-sugoi" target="_blank">Boudrouss
+            Reda</a>
+    </span>
+</footer>

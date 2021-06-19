@@ -1,0 +1,31 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "yeet"
+summaryLength = 20
+paginate = 5
+
+[params]
+favicon = "images/favicon.png"
+herotitle = "WIP"
+herolink = "https://rboud.ml"
+herolinktext = "don't click yet"
+contact = "Send me a message and I will get back as soon as possible."
+
+[hero]
+
+[menu]
+    [[menu.nav]]
+        name    = "about"
+        pre = "<i class='fas fa-home'></i>"
+        url     = "about"
+        weight  = -1
+    [[menu.nav]]
+        name    = "blog"
+        pre = "<i class='fas fa-list'></i>"
+        url     = "post"
+        weight  = -2
+    [[menu.nav]]
+        name    = "conference"
+        pre = "<i class='fas fa-envelope'></i>"
+        url     = "conference"
+        weight  = -3
