@@ -1,5 +1,5 @@
 ---
-title: "Conference"
+title: "Conferences"
 draft: false
 ---
 
