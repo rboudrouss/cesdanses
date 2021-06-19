@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://cesdanses.rboud.ml/"
 languageCode = "en-us"
 title = "CesDanses"
 summaryLength = 20
@@ -7,7 +7,7 @@ paginate = 5
 [params]
 favicon = "images/favicon.png"
 herotitle = "CesDanses"
-herolink = "https://rboud.ml"
+herolink = "#"
 herolinktext = "don't click yet"
 
 [hero]
