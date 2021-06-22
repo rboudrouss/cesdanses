@@ -15,7 +15,8 @@
                 {{ with .Site.GetPage .RelPermalink}}
                 {{.Content}}
                 {{end}}
-                </p.RelPermalink.>
+                {{.RelPermalink}}
+            </p>
         </div>
         <div class="row">
             {{ $paginator := .Paginate (where .Site.RegularPages "Type" (replace (lower .Title) " " "-") ) }}
