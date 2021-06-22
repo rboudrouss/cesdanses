@@ -13,7 +13,6 @@ Durée : 7 à 10 jours.
 
 Public visé : écoles d’art, d’architecture ou de danse.
 
-​
 
 - Filmer et photographier la danse
 - Les avant-gardes russes
